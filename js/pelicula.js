@@ -30,6 +30,21 @@ class Pelicula {
     this.arma.disparar()
     this.narrador.hablar('Se hace el silencio, no se sabe de donde proviene el disparo')
     this.narrador.hablar('Morgan se mira el abdomen, tiene una profunda herida de bala y se está <span class=sangre>desangrando</span>')
+    this.arma.disparar()
+    this.narrador.hablar('Suena otro disparo, esta vez no ha impactado en nadie')
+    this.paco.hablar('¿María le diste?')
+    this.maria.hablar('Creo que sí, pero ha huido hacia el sur.')
+    this.narrador.hablar('Se ve un rastro de sangre en el suelo')
+    this.morgan.hablar('¡Bastardos!')
+    this.arma.disparar()
+    this.narrador.hablar('Morgan dispara y la bala rebota en un poste y le da a María y a Paco a la vez')
+    this.morgan.hablar('¡Bingo!')
+    this.paco.hablar('¿Estás bien María?')
+    this.narrador.hablar('María no responde, está inconsciente')
+    this.paco.hablar('¡Auxilioooooo! ¡Que alguien me ayude por favor!')
+    this.narrador.hablar('Nadie responde ni acude a socorrer')
+    this.morgan.hablar('¡JAJA! Por curioso')
+
   }
 }
 
@@ -70,6 +85,7 @@ class Arma {
     document.write(`<p class=disparar>¡¡PUM!!</p>`)
   }
 }
+
 /*
 class Arma {
   disparar() {
@@ -77,4 +93,5 @@ class Arma {
   }
 }
 */
+
 new Pelicula()
