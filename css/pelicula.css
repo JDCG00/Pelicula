@@ -1,0 +1,21 @@
+body{
+  background-color: pink;
+}
+.bueno{
+  color:blue;
+}
+.malo{
+  color:darkred;
+}
+.sangre{
+  color:red;
+}
+.disparar{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color:#853500;
+}
+span{
+  font-weight: bold;
+}
